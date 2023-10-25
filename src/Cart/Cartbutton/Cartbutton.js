@@ -4,7 +4,7 @@ import { useContext } from 'react';
 
 function Cartbutton(props){
 const cc=useContext(Cartcontext);
-const totalitems=cc.item.length;
+const totalitems=cc.items.length;
     return(
 <button className='button'
 onClick={props.onClick}>
